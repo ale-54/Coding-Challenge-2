@@ -31,3 +31,16 @@ let customers = [
 ];
 customers.push({name: `Dokja Kim`, email: `dkosgyattebayo4951@gmail.com`, purchaseAmount: 9999999});
 console.log(`Customers List:`, customers);
+
+//Task 5 - Order Processing System
+let order = {
+    orderId: 515462,
+    customerName: `Mother Ho`,
+    amount: 78,
+    calculateTax: function() {
+        const taxRate = 0.1;
+        return this.amount * taxRate;
+    }
+};
+console.log(`Order Details:`, order);
+console.log(`Tax Amount:`, order.calculateTax);
