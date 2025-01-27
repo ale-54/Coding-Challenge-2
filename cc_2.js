@@ -22,3 +22,12 @@ let employee = {
 employee.department = `Human Resources`;
 employee.position = `Human Resources Administrator`;
 console.log(`Updated Employee Records`, employee);
+
+//Task 4 - Customer Database
+let customers = [
+    {name: `Mother Ho`, email: `motherlove76@gmail.com`, purchaseAmount: 2000},
+    {name: `Father Le`, email: `fatherlord81@gmail.com`, purchaseAmount: 36},
+    {name: `Ross Red`, email: `redross01@gmail.com`, purchaseAmount: 69}
+];
+customers.push({name: `Dokja Kim`, email: `dkosgyattebayo4951@gmail.com`, purchaseAmount: 9999999});
+console.log(`Customers List:`, customers);
